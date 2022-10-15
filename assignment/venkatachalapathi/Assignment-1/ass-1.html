@@ -1,0 +1,147 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            SMART FASHION 
+        </title>
+        <style>
+    body{
+	margin: 0;
+    }
+    #nav-bar{
+	border-bottom: 2.5px solid black;
+	width: 98vw;
+	height: 6vh;
+	display: flex;
+	justify-content: space-between;
+	padding: 2px 10px;
+	margin: 5px;
+        }
+    .text-1{
+	font-size: 1.9em;
+	font-family: Abel;
+	font-weight: bold;
+	color: black;
+        }
+    .nav-but{
+	margin: 0px 5px;
+	padding: 8px;
+	font-size: 1.6em;
+	font-weight: bold;
+	height: 3.9vh;
+          }
+    #nav-bar-item{
+	margin-right: 10px;
+	font-family: Abel;
+	display: flex;
+	align-items: center;
+   }
+    #nav-bar-item span:nth-child(2){
+	border-right: 2px solid black;
+	border-left: 2px solid black; 
+    }
+    #container{
+	display: flex;
+	height: 90vh;
+	width: 96vw;
+	margin: 1vh 2vw;
+	flex-direction: row;
+	justify-content: space-between;
+    }
+    #vector-block{
+	width: 39%;
+	background-image: url("./boy.jpg");
+	background-size: cover  ;
+    }
+    #content-side{
+	width: 60%;
+	border-left: 2px solid black;
+	padding: 10px;
+    }
+    .input-group{
+	position: relative;
+	align-items: center;
+    }
+    .input1{
+	padding: 12px;
+	border-radius: 2px;
+	width: 50%;
+	outline: none;
+	color: black;
+	border: 1px solid black;
+	height: 10%;
+    }
+    .center{
+	align-items: center;
+	background-color: black;
+	color: white;
+    }
+    .input{
+	padding: 12px;
+	border-radius: 2px;
+	width: 50%;
+	outline: none;
+	color: black;
+	border: 1px solid black;
+   }
+   .name{
+	position: absolute;
+	top: 10px;
+	left: 8px;
+	font-size: 10px;
+	padding: 0px 5px;
+	color: black;
+	transition: 0.3%;
+	pointer-events: none;
+    }  
+.input:focus +.name,
+.input:not(:name-shown)
++.name{
+	top: -10px;
+	background-color:white;
+}
+            
+        </style>
+    </head>
+    <body>
+        <div id="nav-bar" class="nav-bar-class">
+            <div>
+            <img src="logo.jpg" width="9%" hight="7%" >
+            <span id="title" class="text-1">Dillibabu</span>
+            </div>
+            <div id="nav-bar-item">
+            <span class="nav-but">Home</span>
+            <span class="nav-but">Contact</span>
+            <span class="nav-but">About</span> 
+            </div>
+        </div>
+        <div id="container" class="">
+            <div id="vector-block" class="check"></div>
+            <div id="content-side" class="">
+               <span class="text-1">About me </span><br>
+
+               <span>
+                Iam Dillibabu
+               </span>
+                    <form action="#" id="contact-form">
+                        <h1> Contact-Form</h1>
+                        <div class="input-group">
+                           
+                            <input type="text" name="" class="input" name=" " />
+                            <label class="name"><b>First Name</b></label></div><br><br>
+                            <div class="input-group">
+                            <input type="text" name="" class="input" />
+                            <label class="name">Last Name</label></div><br><br>
+                            <div class="input-group">
+                            <input type="Mail" name="" class="input" name=" " />
+                            <label class="name">Mail</label></div><br><br>
+                            <div class="input-group">
+                            <label style="text-1">Ask Questions ?</label><br>
+                            <input type="text" name="" class="input1" /><br><br>
+                            <input type="submit" name="Submit" class="center">
+                    </form>
+            </div>
+
+        </div>
+    </body>
+</html>

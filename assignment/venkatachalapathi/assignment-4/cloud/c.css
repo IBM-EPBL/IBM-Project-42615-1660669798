@@ -1,0 +1,52 @@
+mi{
+		  display: inline-block;
+
+		}
+		img{
+       width: 100px;
+       height: 150px;
+       margin-right: 30px;   
+       margin-bottom: 30px;
+       border: 1px 2px 2px solid black;
+    }
+
+#menu{
+	float: right;
+	width: 70%;
+	height: 100%;
+	margin: none;
+}
+	
+#menu ul{
+	text-align: center;
+	float: right;
+	margin: none;
+	background: white;
+}
+	
+#menu li{
+	display: inline-block;
+	padding: 10px;
+	margin: none;
+}
+	
+#menu li a, #menu li span{
+	display: inline-block;
+	padding: 0em 1.5em;
+	text-decoration: none;
+	font-weight: 600;
+	text-transform: uppercase;
+	line-height: 60px;
+}
+	
+#menu li a{
+		
+	color: white;
+}
+	
+#menu li:hover a, #menu li span{
+	background: ghostwhite;
+	color: white;
+	border-left: 1px solid #0074D9;
+	text-decoration: none;
+}
